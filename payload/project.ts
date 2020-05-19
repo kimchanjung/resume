@@ -4,8 +4,55 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'BROS 2.0 (배민라이더스 오퍼레이팅 시스템)',
+      startedAt: '2016-02',
+      endedAt: '2019-01',
+      where: '우아한형제들(배달의민족), 팀내 메인 개발운영 프로젝트',
+      descriptions: [
+        { content: '라이더의 실시간 주문현황의 관제 및 운영' },
+        { content: '배달권역 및 운영에 필요한 설정 기능' },
+        { content: '라이더 배달료 정산에 필요한 각종 데이터 제공' },
+        { content: 'BROS 1.0에 더 추가된 각종 기능 셋 제공' },
+        {
+          content: '사용기술',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Back-End - Java, Spring-Boot, JPA' },
+            { content: 'Front-End - WoowahanJS(사내 SPA Framework)' },
+            { content: 'Etc - AWS, Redis, Websocket' },
+          ],
+        },
+        {
+          content: '효과',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'AWS 인프라 위에서 개발된 팀내 최초 프로젝트로써 수직 상승하는 사업 니즈에 맞춰 flexible한 인프라 자원 운영이 가능해짐',
+            },
+          ],
+        },
+        {
+          content: '느낀점',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '본격적으로 팀내 코드 리뷰, 테스트코드, Pair programming 문화가 정착 되기 시작한 프로젝트',
+            },
+            { content: '팀내 개발 문화가 시스템 안정성을 높이는 결과를 가져왔음(무장애 300일)' },
+            {
+              content:
+                '장애시 대외 신뢰성 추락, 금전적 피해를 감안해 보았을 때 안정성은 매우 중요한 가치라는 것을 증명해 보임(결과물을 빨리 내는 것에 대비하여)',
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: '라이더관리시스템',
-      startedAt: '2019-03',
+      startedAt: '2019-02',
+      endedAt: '2019-05',
       where: '우아한형제들(배달의민족)',
       descriptions: [
         { content: '라이더정보 등록 및 관리' },
@@ -17,7 +64,7 @@ const project: IProject.Payload = {
           content: '사용기술',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Back-End - Java Spring, JPA' },
+            { content: 'Back-End - Java, Spring-Boot, JPA' },
             { content: 'Front-End - React, Mobx, Material-UI' },
             { content: 'Etc - Amazon SNS, SQS' },
           ],
@@ -56,95 +103,11 @@ const project: IProject.Payload = {
         },
       ],
     },
-    {
-      title: '크라우드 소싱 라이더 모집 사이트',
-      startedAt: '2017-03',
-      where: '우아한형제들(배달의민족)',
-      descriptions: [
-        { content: '크라우드소싱 형태로 라이더를 모집하는 사이트' },
-        {
-          content:
-            '크라우드소싱 라이더 지원 요건 안내, 라이더 지원 정보 등록, 지원자 심사 및 승인 처리',
-        },
-        {
-          content: '사용기술',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Back-End - Java Spring, JPA' },
-            { content: 'Front-End - WoowahanJS(사내 SPA Framework)' },
-            { content: 'Etc - AWS, Redis' },
-          ],
-        },
-        {
-          content: '효과',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                '실시간 이벤트가 필요한 서비스에 기능을 제공, 이를 활용하여 실시간성을 실현 및 DB 호출 수를 현저하게 낮춤.',
-            },
-          ],
-        },
-        {
-          content: '느낀점',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                '지원정보를 어떤 방식으로 라이더 정보화 할지에 대한 ORM적 관점에서 깊이 있는 고민을 할 수 있었던 프로젝트.',
-            },
-          ],
-        },
-      ],
-    },
-    {
-      title: 'BROS 2.0 (배민라이더스 오퍼레이팅 시스템)',
-      startedAt: '2016-02',
-      where: '우아한형제들(배달의민족)',
-      descriptions: [
-        { content: '라이더의 실시간 주문현황의 관제 및 운영' },
-        { content: '배달권역 및 운영에 필요한 설정 기능' },
-        { content: '라이더 배달료 정산에 필요한 각종 데이터 제공' },
-        { content: 'BROS 1.0에 더 추가된 각종 기능 셋 제공' },
-        {
-          content: '사용기술',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Back-End - Java Spring, JPA' },
-            { content: 'Front-End - WoowahanJS(사내 SPA Framework)' },
-            { content: 'Etc - AWS, Redis, Websocket' },
-          ],
-        },
-        {
-          content: '효과',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                'AWS 인프라 위에서 개발된 팀내 최초 프로젝트로써 수직 상승하는 사업 니즈에 맞춰 flexible한 인프라 자원 운영이 가능해짐',
-            },
-          ],
-        },
-        {
-          content: '느낀점',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                '본격적으로 팀내 코드 리뷰, 테스트코드, Pair programming 문화가 정착 되기 시작한 프로젝트',
-            },
-            { content: '팀내 개발 문화가 시스템 안정성을 높이는 결과를 가져왔음(무장애 300일)' },
-            {
-              content:
-                '장애시 대외 신뢰성 추락, 금전적 피해를 감안해 보았을 때 안정성은 매우 중요한 가치라는 것을 증명해 보임(결과물을 빨리 내는 것에 대비하여)',
-            },
-          ],
-        },
-      ],
-    },
+
     {
       title: 'BROS 1.0 (배민라이더스 오퍼레이팅 시스템)',
       startedAt: '2015-02',
+      endedAt: '2016-08',
       where: '우아한형제들(배달의민족)',
       descriptions: [
         { content: '주문접수 및 취소 기능, 채팅기능 제공.' },
@@ -214,7 +177,8 @@ const project: IProject.Payload = {
 
     {
       title: 'Real-Time Messaging Server',
-      startedAt: '2015-02',
+      startedAt: '2015-08',
+      endedAt: '2016-08',
       where: '우아한형제들(배달의민족)',
       descriptions: [
         { content: '실시간 이벤트 데이터 송수신, 멀티 플랫폼 지원, 채팅 구축 가능.' },
@@ -274,23 +238,23 @@ const project: IProject.Payload = {
         },
       ],
     },
-
     {
-      title: 'BROS 2.0 (배민라이더스 오퍼레이팅 시스템)',
-      startedAt: '2016-02',
+      title: '크라우드 소싱 라이더 모집 사이트',
+      startedAt: '2017-03',
       where: '우아한형제들(배달의민족)',
       descriptions: [
-        { content: '라이더의 실시간 주문현황의 관제 및 운영' },
-        { content: '배달권역 및 운영에 필요한 설정 기능' },
-        { content: '라이더 배달료 정산에 필요한 각종 데이터 제공' },
-        { content: 'BROS 1.0에 더 추가된 각종 기능 셋 제공' },
+        { content: '크라우드소싱 형태로 라이더를 모집하는 사이트' },
+        {
+          content:
+            '크라우드소싱 라이더 지원 요건 안내, 라이더 지원 정보 등록, 지원자 심사 및 승인 처리',
+        },
         {
           content: '사용기술',
           weight: 'MEDIUM',
           descriptions: [
             { content: 'Back-End - Java Spring, JPA' },
             { content: 'Front-End - WoowahanJS(사내 SPA Framework)' },
-            { content: 'Etc - AWS, Redis, Websocket' },
+            { content: 'Etc - AWS, Redis' },
           ],
         },
         {
@@ -299,7 +263,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                'AWS 인프라 위에서 개발된 팀내 최초 프로젝트로써 수직 상승하는 사업 니즈에 맞춰 flexible한 인프라 자원 운영이 가능해짐',
+                '실시간 이벤트가 필요한 서비스에 기능을 제공, 이를 활용하여 실시간성을 실현 및 DB 호출 수를 현저하게 낮춤.',
             },
           ],
         },
@@ -309,80 +273,16 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                '본격적으로 팀내 코드 리뷰, 테스트코드, Pair programming 문화가 정착 되기 시작한 프로젝트',
-            },
-            { content: '팀내 개발 문화가 시스템 안정성을 높이는 결과를 가져왔음(무장애 300일)' },
-            {
-              content:
-                '장애시 대외 신뢰성 추락, 금전적 피해를 감안해 보았을 때 안정성은 매우 중요한 가치라는 것을 증명해 보임(결과물을 빨리 내는 것에 대비하여)',
+                '지원정보를 어떤 방식으로 라이더 정보화 할지에 대한 ORM적 관점에서 깊이 있는 고민을 할 수 있었던 프로젝트.',
             },
           ],
         },
       ],
     },
-    {
-      title: 'BROS 1.0 (배민라이더스 오퍼레이팅 시스템)',
-      startedAt: '2015-02',
-      where: '우아한형제들(배달의민족)',
-      descriptions: [
-        { content: '주문접수 및 취소 기능, 채팅기능 제공.' },
-        {
-          content:
-            '실시간 배달현황 및 라이더 위치 정보 제공, 라이더에게 실시간 배달건 배차 및 관제 기능.',
-        },
-        { content: '라이더 배달료 정산에 필요한 각종 데이터 제공' },
-        { content: '주문, 배달, 라이더 배달료정산 데이터 조회 및 제공.' },
-        {
-          content: '사용기술',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Back-End - PHP, Node.js, Socket.io' },
-            { content: 'Front-End - AngularJs 1.xx' },
-            { content: 'Etc - Redis, Websocket' },
-          ],
-        },
-        {
-          content: '효과',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                'AngularJs 특징인 양방향 데이터 바인딩 기능을 실시간 데이터 제공에 적극 활용',
-            },
-            {
-              content:
-                '실시간 이벤트 서버 Socket.io(Node.js) 를 이용하여 데이터 생성, 변경, 삭제 시 실시간 이벤트로 데이터를 송수신 하여 AngularJS 모델에 반영하도록 하고 뷰의 갱신을 신경쓸 필요없는 구조.',
-            },
-            {
-              content:
-                '실시간 이벤트 서버 도입으로 Polling 방식에 비하여 DB호출 횟수를 현저하게 낮춤에도 불구 실시간 서비스가 가능하게 됨.',
-            },
-          ],
-        },
-        {
-          content: '느낀점',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                'AngularJS + Socket.io 신기술의 장점을 활용하여 개발 해볼 수 있었던 기회 통해 출근이 기다려지는 기분을 경험.',
-            },
-            {
-              content:
-                '실시간 서비스라는 다소 생소하고 복잡한 서비스 경험에 엄청난 개발욕구를 경험',
-            },
-            {
-              content:
-                '실무를 통해서만 습득 할 수 있는 실시간 서비스만의 개발, 운영 이슈에 대한 깊이 있는 경험.',
-            },
-          ],
-        },
-      ],
-    },
-
     {
       title: '부동산써브 안드로이드앱',
       startedAt: '2012-03',
+      endedAt: '2012-07',
       where: '주)부동산써브',
       descriptions: [
         { content: '모바일 웹페이지와 일부 네티브페이지가 조합된 부동산정보제공 하이브리드앱' },
@@ -424,6 +324,7 @@ const project: IProject.Payload = {
     {
       title: '부동산써브 모바일 사이트',
       startedAt: '2011-12',
+      endedAt: '2012-03',
       where: '주)부동산써브',
       descriptions: [
         { content: '부동산 매물 및 투자정보 사이트의 모바일 버전' },

@@ -1,10 +1,10 @@
 import { IFooter } from '../component/footer/IFooter';
-import { version, homepage } from '../package.json';
+import { version, github } from '../package.json';
 import { dependencies } from '../package-lock.json';
 
 const footer: IFooter.Payload = {
   version,
-  github: homepage,
+  github,
   nextVersion: dependencies.next.version,
   bootstrapVersion: dependencies.bootstrap.version,
 };

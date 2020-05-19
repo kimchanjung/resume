@@ -17,7 +17,7 @@ export const Project = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="PROJECT">
+    <CommonSection title="주요 PROJECT (중요도 순)">
       <ProjectRow payload={payload} />
     </CommonSection>
   );

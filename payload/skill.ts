@@ -99,6 +99,23 @@ const etc: ISkill.Skill = {
     },
   ],
 };
+const devCulture: ISkill.Skill = {
+  category: 'Dev Culture & Architecture',
+  items: [
+    {
+      title: 'TDD',
+    },
+    {
+      title: 'Code Review',
+    },
+    {
+      title: 'Pair Programming',
+    },
+    {
+      title: 'MSA',
+    },
+  ],
+};
 
 const infra: ISkill.Skill = {
   category: 'Infra',
@@ -118,7 +135,7 @@ const infra: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc, infra],
+  skills: [backend, database, frontend, etc, infra, devCulture],
   tooltip: '3: 상\n2: 중\n1: 하',
 };
 

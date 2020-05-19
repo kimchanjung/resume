@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "lastestUpdatedAt": "2020-05-19",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
     "typedoc": "typedoc --excludeExternals"
   },
   "homepage": "https://kimchanjung.github.io/resume",
+  "github": "https://github.com/kimchanjung/resume",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kimchanjung/resume.git"

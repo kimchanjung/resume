@@ -4,27 +4,27 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
+      title: 'Java',
       level: 3,
     },
     {
-      title: 'AWS',
+      title: 'Spring',
+      level: 3,
+    },
+    {
+      title: 'JPA',
       level: 3,
     },
     {
       title: 'PHP',
+      level: 3,
+    },
+    {
+      title: 'Node.js',
       level: 2,
     },
     {
-      title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
+      title: 'Kotlin',
       level: 1,
     },
   ],
@@ -38,15 +38,15 @@ const database: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Oracle',
-      level: 2,
+      title: 'SqlSever',
+      level: 3,
     },
     {
       title: 'Redis',
       level: 2,
     },
     {
-      title: 'MongoDB',
+      title: 'InfluxDB',
       level: 1,
     },
   ],
@@ -56,20 +56,32 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
       title: 'React.js',
-      level: 2,
+      level: 3,
     },
     {
-      title: 'javascript',
-      level: 2,
+      title: 'Mobx',
+      level: 3,
+    },
+    {
+      title: 'Javascript',
+      level: 3,
+    },
+    {
+      title: 'AngularJS 1.xx',
+      level: 3,
+    },
+    {
+      title: 'Webpack',
+      level: 3,
+    },
+    {
+      title: 'NPM 생태계',
+      level: 3,
     },
     {
       title: 'HTML/CSS',
-      level: 2,
+      level: 1,
     },
   ],
 };
@@ -78,16 +90,22 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Ubuntu',
+      title: 'Websocket',
+      level: 3,
     },
     {
-      title: 'Vim',
+      title: 'Socket.io',
+      level: 3,
     },
+  ],
+};
+
+const infra: ISkill.Skill = {
+  category: 'Infra',
+  items: [
     {
-      title: 'Security',
-    },
-    {
-      title: 'VS Code',
+      title: 'AWS',
+      level: 2,
     },
     {
       title: 'Jira',
@@ -100,8 +118,8 @@ const etc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [backend, database, frontend, etc, infra],
+  tooltip: '3: 상\n2: 중\n1: 하',
 };
 
 export default skill;

@@ -1,7 +1,7 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import { faEnvelope, faPhone, faInfo } from '@fortawesome/free-solid-svg-icons';
+// import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faGithub, faFacebook, faYoutube, faBlogger } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/profile-image.png';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -10,13 +10,13 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '김찬정',
+    small: '',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
-      link: '#',
+      title: 'mogomezwai@gmail.com',
+      link: 'mailto:mogomezwai@gmail.com',
       icon: faEnvelope,
     },
     {
@@ -25,24 +25,29 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/kimchanjung',
+      link: 'https://github.com/kimchanjung',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
+      title: 'https://kimchanjung.github.io/',
+      link: 'https://kimchanjung.github.io/',
+      icon: faBlogger,
+    },
+    {
+      // link: 'https://www.facebook.com/gomezwai.mo.3',
       icon: faFacebook,
     },
     {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
+      // title: 'YouTube',
+      // link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
       // icon: faRss,
       icon: faYoutube,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
+    title: 'Java 백엔드, React 프론트엔드 개발자 ',
+    icon: faInfo,
   },
 };
 

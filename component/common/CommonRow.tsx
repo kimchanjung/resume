@@ -24,7 +24,11 @@ export function CommonRows({
             {right.projectImg ? (
               <Col md={12}>
                 <img
-                  style={{ maxHeight: '320px', marginTop: '10px', boxShadow: '5px 5px 5px #000' }}
+                  style={{
+                    maxHeight: '320px',
+                    margin: '10px 0px 30px 0px',
+                    boxShadow: '5px 5px 5px #000',
+                  }}
                   className="img-fluid rounded"
                   src={right.projectImg}
                   alt="ProjectImg"

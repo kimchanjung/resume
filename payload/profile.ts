@@ -3,6 +3,7 @@ import { faEnvelope, faPhone, faInfo } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faBlogger } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/profile-image.png';
 import { IProfile } from '../component/profile/IProfile';
+import { author } from '../package.json';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -10,13 +11,13 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: '김찬정',
+    title: author.nameKor,
     small: '',
   },
   contact: [
     {
-      title: 'mogomezwai@gmail.com',
-      link: 'mailto:mogomezwai@gmail.com',
+      title: author.email,
+      link: `mailto:${author.email}`,
       icon: faEnvelope,
     },
     {

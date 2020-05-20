@@ -21,6 +21,18 @@ export function CommonRows({
             <Col md={12}>
               <h4 style={Style.gray}>{left.title}</h4>
             </Col>
+            {right.projectImg ? (
+              <Col md={12}>
+                <img
+                  style={{ maxHeight: '320px', marginTop: '10px', boxShadow: '5px 5px 5px #000' }}
+                  className="img-fluid rounded"
+                  src={right.projectImg}
+                  alt="ProjectImg"
+                />
+              </Col>
+            ) : (
+              ''
+            )}
             {left.subTitle ? <Col md={12}>{left.subTitle}</Col> : ''}
           </Row>
         </Col>

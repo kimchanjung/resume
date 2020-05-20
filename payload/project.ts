@@ -1,4 +1,8 @@
 import { IProject } from '../component/project/IProject';
+import brmsDashboard from '../asset/brms-dashboard.jpg';
+import brosChatting from '../asset/bros-chatting.jpg';
+import riderManamgement from '../asset/rider-management-list.jpg';
+import socketServer from '../asset/socket-server-monitor.jpg';
 
 const project: IProject.Payload = {
   disable: false,
@@ -8,6 +12,7 @@ const project: IProject.Payload = {
       startedAt: '2016-02',
       endedAt: '2019-01',
       where: '우아한형제들(배달의민족), 팀내 메인 개발운영 프로젝트',
+      projectImg: brmsDashboard,
       descriptions: [
         { content: '라이더의 실시간 주문현황의 관제 및 운영' },
         { content: '배달권역 및 운영에 필요한 설정 기능' },
@@ -38,12 +43,12 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                '본격적으로 팀내 코드 리뷰, 테스트코드, Pair programming 문화가 정착 되기 시작한 프로젝트',
+                '본격적으로 팀내 코드 리뷰, 테스트코드, Pair Programming 문화가 정착 되기 시작한 프로젝트',
             },
             { content: '팀내 개발 문화가 시스템 안정성을 높이는 결과를 가져왔음(무장애 300일)' },
             {
               content:
-                '장애시 대외 신뢰성 추락, 금전적 피해를 감안해 보았을 때 안정성은 매우 중요한 가치라는 것을 증명해 보임(결과물을 빨리 내는 것에 대비하여)',
+                '장애 발생시 대외 신뢰성 추락, 금전적 피해를 감안해 보았을 때 안정성은 매우 중요한 가치라는 것을 증명해 보임(결과물을 빨리 내는 것에 대비하여)',
             },
           ],
         },
@@ -54,8 +59,9 @@ const project: IProject.Payload = {
       startedAt: '2019-02',
       endedAt: '2019-05',
       where: '우아한형제들(배달의민족)',
+      projectImg: riderManamgement,
       descriptions: [
-        { content: '라이더정보 등록 및 관리' },
+        { content: '라이더정보 관리 및 연동' },
         {
           content: '배달운영시스템과 MSA로 분리 구성 되어 상호 비동기 데이터 연동 (AWS - SQS, SNS)',
         },
@@ -86,7 +92,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                'MSA로 구성시 시스템간 단순 ACTION을 처리하는 것과는 다르게 DB 데이터를 완전히 분리하여 서로 동기화 하고 부가적인 연동 처리 (Email 발송, 회계시스템 연동 등등)등 다소 복잡한 구성을 MSA 로 처리한다는 것은 기술 문서나 기술동향에 정답이 있다기 보다 상황에 맞게 절절히 (비동기, 동기) 처리 해야 함을 느낌',
+                'MSA로 구성시 시스템간 단순 ACTION을 처리하는 것과는 다르게 DB 데이터를 완전히 분리하여 이벤트소싱으로 서로 동기화 하고 부가적인 연동 처리 (Email 발송, 회계시스템 연동 등등)등 다소 복잡한 구성을 MSA 로 처리한다는 것은 기술 문서나 기술동향에 정답이 있다기 보다 상황에 맞게 절절히 (비동기, 동기) 처리 해야함을 느낌',
             },
             { content: '실무적인 경험이 더 중요한 분야 같음' },
           ],
@@ -99,6 +105,11 @@ const project: IProject.Payload = {
               content: 'React에서 Mobx 경험기 (Redux와 비교기)',
               href: 'https://woowabros.github.io/experience/2019/01/02/kimcj-react-mobx.html',
             },
+            {
+              content: '[마이크로서비스] 스프링 마이크로서비스 정리 (spring microservice, msa)',
+              href:
+                'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary.html',
+            },
           ],
         },
       ],
@@ -109,6 +120,7 @@ const project: IProject.Payload = {
       startedAt: '2015-02',
       endedAt: '2016-08',
       where: '우아한형제들(배달의민족)',
+      projectImg: brosChatting,
       descriptions: [
         { content: '주문접수 및 취소 기능, 채팅기능 제공.' },
         {
@@ -180,6 +192,7 @@ const project: IProject.Payload = {
       startedAt: '2015-08',
       endedAt: '2016-08',
       where: '우아한형제들(배달의민족)',
+      projectImg: socketServer,
       descriptions: [
         { content: '실시간 이벤트 데이터 송수신, 멀티 플랫폼 지원, 채팅 구축 가능.' },
         {
@@ -192,7 +205,7 @@ const project: IProject.Payload = {
           descriptions: [
             { content: 'Back-End - Node.js, Socket.io' },
             { content: 'Front-End - AngularJs 1.xx' },
-            { content: 'Etc - Redis, Websocket' },
+            { content: 'Etc - Redis pub/sub, Websocket' },
           ],
         },
         {
@@ -215,11 +228,11 @@ const project: IProject.Payload = {
             },
             {
               content:
-                'Node.js는 싱글 프로세스, 서버의 CPU Core 수만큼 Multi-processing을 코드로 구현 해야 함',
+                'Node.js는 싱글 프로세스, 서버의 CPU Core 수만큼 Multi-Processing을 코드로 구현 해야 함',
             },
             {
               content:
-                'Multi-processing로 인하여 process간 데이터(이벤트 메시지 데이터 및 관리 데이터) 공유가 되어야 하는 이슈는 Redis 를 사용하여 해결.',
+                'Multi-Processing로 인하여 process간 상태(이벤트 메시지 데이터 및 관리 데이터)공유 이슈는 Redis pub/sub사용하여 해결.',
             },
             {
               content:
@@ -227,20 +240,31 @@ const project: IProject.Payload = {
             },
             {
               content:
-                '서버현황데이터 제공을 위하여 Client, NameSpace, Room 현황 데이터를 Redis로 관리하던 중 for loop문에서 async하게 동작하는 Node.js 특징 때문에 sync 하게 처리하는 로직을 구현 급격한 성능저하를 경험.',
+                '서버현황데이터 제공을 위하여 Client, NameSpace, Room 현황 데이터를 Redis로 관리하던 중 간혹 동기식 처리로직으로 인하여 급격한 성능저하를 경험.',
             },
             {
               content:
-                'Redis에는 데이터구조를 되도록 단순하게 설계, 관리 필요성과, Node.js는 for loop를 sync 하게 처리하는 로직은 지양 해야함을 크게 느낌.',
+                'Redis에는 데이터구조를 되도록 단순하게 설계, 관리 필요성과, Node.js는 동기적으로 처리하는 로직은 지양 해야함을 크게 느낌',
             },
             { content: 'NameSpace, Room, EventType 별로 적절한 구조화 필요' },
+            {
+              content: '관련 기술블로그',
+              weight: 'MEDIUM',
+              descriptions: [
+                {
+                  content: '실시간 서비스 경험기(배달운영시스템)',
+                  href: 'https://woowabros.github.io/woowabros/2017/09/12/realtime-service.html',
+                },
+              ],
+            },
           ],
         },
       ],
     },
     {
-      title: '크라우드 소싱 라이더 모집 사이트',
+      title: '크라우드 소싱 라이더 등록 및 심사 처리 백오피스',
       startedAt: '2017-03',
+      endedAt: '2017-05',
       where: '우아한형제들(배달의민족)',
       descriptions: [
         { content: '크라우드소싱 형태로 라이더를 모집하는 사이트' },
@@ -262,8 +286,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content:
-                '실시간 이벤트가 필요한 서비스에 기능을 제공, 이를 활용하여 실시간성을 실현 및 DB 호출 수를 현저하게 낮춤.',
+              content: '크라우드소싱방식의 라이더모집 여건 마련',
             },
           ],
         },
@@ -273,7 +296,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                '지원정보를 어떤 방식으로 라이더 정보화 할지에 대한 ORM적 관점에서 깊이 있는 고민을 할 수 있었던 프로젝트.',
+                '라이더 지원정보를 어떤 방식으로 라이더정보 엔티티로 구성할지에 대한 ORM(JPA)적 관점에서 깊이 있는 고민을 할 수 있었던 프로젝트.',
             },
           ],
         },

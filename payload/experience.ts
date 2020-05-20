@@ -10,10 +10,10 @@ const experience: IExperience.Payload = {
       startedAt: '2013-03',
       endedAt: '2019-06',
       descriptions: [
-        'Websocket Server 바탕으로 라이더들의 배달/배차업무 현황을 실시간으로 관제, 운영 시스템 개발',
         'Java Spring Boot 기반으로 Back-End API, 라이더 앱 API 개발',
         'React, Mobx , Material-UI 활용 Front-End 개발(팀내 JavaScript Front-End 기술 리딩)',
-        'Socket.IO(NodeJS) 기반 Websocket Server 개발',
+        'Socket.IO(node.js) 기반 Websocket Server 개발',
+        'Websocket Server 바탕으로 라이더들의 배달/배차업무 현황을 실시간으로 관제, 운영 시스템 개발',
         'AWS Beanstalk, SQS, SNS 등 인프라 환경에서 개발',
         '타팀과 MSA 기반 SQS-SNS 비동기 서비스 개발',
         '팀내에서 코드리뷰 활발, 여건이 되는 경우에 한하여 풀타임 Pair Programming 진행',

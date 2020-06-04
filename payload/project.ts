@@ -14,10 +14,21 @@ const project: IProject.Payload = {
       where: '우아한형제들(배달의민족), 팀내 메인 개발운영 프로젝트',
       projectImg: brmsDashboard,
       descriptions: [
-        { content: '라이더의 실시간 주문현황의 관제 및 운영' },
-        { content: '배달권역 및 운영에 필요한 설정 기능' },
-        { content: '라이더 배달료 정산에 필요한 각종 데이터 제공' },
-        { content: 'BROS 1.0에 더 추가된 각종 기능 셋 제공' },
+        {
+          content: '프로젝트 상세정보 바로가기',
+          weight: 'MEDIUM',
+          href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v2.html',
+        },
+        {
+          content: '주요기능',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '라이더의 실시간 주문현황의 관제 및 운영' },
+            { content: '배달권역 및 운영에 필요한 설정 기능' },
+            { content: '라이더 배달료 정산에 필요한 각종 데이터 제공' },
+            { content: 'BROS 1.0에 더 추가된 각종 기능 셋 제공' },
+          ],
+        },
         {
           content: '사용기술',
           weight: 'MEDIUM',
@@ -61,11 +72,23 @@ const project: IProject.Payload = {
       where: '우아한형제들(배달의민족)',
       projectImg: riderManamgement,
       descriptions: [
-        { content: '라이더정보 관리 및 연동' },
         {
-          content: '배달운영시스템과 MSA로 분리 구성 되어 상호 비동기 데이터 연동 (AWS - SQS, SNS)',
+          content: '프로젝트 상세정보 바로가기',
+          weight: 'MEDIUM',
+          href: 'https://kimchanjung.github.io/projects/2020/01/01/brms.html',
         },
-        { content: 'SAP(ERP) 시스팀과 연동' },
+        {
+          content: '주요기능',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '라이더정보 관리 및 연동' },
+            {
+              content:
+                '배달운영시스템과 MSA로 분리 구성 되어 상호 비동기 데이터 연동 (AWS - SQS, SNS)',
+            },
+            { content: 'SAP(ERP) 시스팀과 연동' },
+          ],
+        },
         {
           content: '사용기술',
           weight: 'MEDIUM',
@@ -122,13 +145,19 @@ const project: IProject.Payload = {
       where: '우아한형제들(배달의민족)',
       projectImg: brosChatting,
       descriptions: [
-        { content: '주문접수 및 취소 기능, 채팅기능 제공.' },
         {
-          content:
-            '실시간 배달현황 및 라이더 위치 정보 제공, 라이더에게 실시간 배달건 배차 및 관제 기능.',
+          content: '주요기능',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '주문접수 및 취소 기능, 채팅기능 제공.' },
+            {
+              content:
+                '실시간 배달현황 및 라이더 위치 정보 제공, 라이더에게 실시간 배달건 배차 및 관제 기능.',
+            },
+            { content: '라이더 배달료 정산에 필요한 각종 데이터 제공' },
+            { content: '주문, 배달, 라이더 배달료정산 데이터 조회 및 제공.' },
+          ],
         },
-        { content: '라이더 배달료 정산에 필요한 각종 데이터 제공' },
-        { content: '주문, 배달, 라이더 배달료정산 데이터 조회 및 제공.' },
         {
           content: '사용기술',
           weight: 'MEDIUM',
@@ -194,10 +223,16 @@ const project: IProject.Payload = {
       where: '우아한형제들(배달의민족)',
       projectImg: socketServer,
       descriptions: [
-        { content: '실시간 이벤트 데이터 송수신, 멀티 플랫폼 지원, 채팅 구축 가능.' },
         {
-          content:
-            '실시간 서버현황(접속유저, NameSpace, Room) 및 CPU/Memory 사용량 모니터링 페이지 제공',
+          content: '주요기능',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '실시간 이벤트 데이터 송수신, 멀티 플랫폼 지원, 채팅 구축 가능.' },
+            {
+              content:
+                '실시간 서버현황(접속유저, NameSpace, Room) 및 CPU/Memory 사용량 모니터링 페이지 제공',
+            },
+          ],
         },
         {
           content: '사용기술',
@@ -267,10 +302,16 @@ const project: IProject.Payload = {
       endedAt: '2017-05',
       where: '우아한형제들(배달의민족)',
       descriptions: [
-        { content: '크라우드소싱 형태로 라이더를 모집하는 사이트' },
         {
-          content:
-            '크라우드소싱 라이더 지원 요건 안내, 라이더 지원 정보 등록, 지원자 심사 및 승인 처리',
+          content: '주요기능',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '크라우드소싱 형태로 라이더를 모집하는 사이트' },
+            {
+              content:
+                '크라우드소싱 라이더 지원 요건 안내, 라이더 지원 정보 등록, 지원자 심사 및 승인 처리',
+            },
+          ],
         },
         {
           content: '사용기술',
@@ -308,9 +349,15 @@ const project: IProject.Payload = {
       endedAt: '2012-07',
       where: '주)부동산써브',
       descriptions: [
-        { content: '모바일 웹페이지와 일부 네티브페이지가 조합된 부동산정보제공 하이브리드앱' },
         {
-          content: '위치기반 지역별 매물 정보 및 부동산 투자 관련 정보 제공',
+          content: '주요기능',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '모바일 웹페이지와 일부 네티브페이지가 조합된 부동산정보제공 하이브리드앱' },
+            {
+              content: '위치기반 지역별 매물 정보 및 부동산 투자 관련 정보 제공',
+            },
+          ],
         },
         {
           content: '사용기술',
@@ -350,9 +397,15 @@ const project: IProject.Payload = {
       endedAt: '2012-03',
       where: '주)부동산써브',
       descriptions: [
-        { content: '부동산 매물 및 투자정보 사이트의 모바일 버전' },
         {
-          content: '위치기반 지역별 매물 정보 및 부동산 투자 관련 정보 제공',
+          content: '주요기능',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '부동산 매물 및 투자정보 사이트의 모바일 버전' },
+            {
+              content: '위치기반 지역별 매물 정보 및 부동산 투자 관련 정보 제공',
+            },
+          ],
         },
         {
           content: '사용기술',

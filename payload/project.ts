@@ -146,6 +146,11 @@ const project: IProject.Payload = {
       projectImg: brosChatting,
       descriptions: [
         {
+          content: '프로젝트 상세정보 바로가기',
+          weight: 'MEDIUM',
+          href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v1.html',
+        },
+        {
           content: '주요기능',
           weight: 'MEDIUM',
           descriptions: [
@@ -223,6 +228,11 @@ const project: IProject.Payload = {
       where: '우아한형제들(배달의민족)',
       projectImg: socketServer,
       descriptions: [
+        {
+          content: '프로젝트 상세정보 바로가기',
+          weight: 'MEDIUM',
+          href: 'https://kimchanjung.github.io/projects/2020/01/01/socket-io-server.html',
+        },
         {
           content: '주요기능',
           weight: 'MEDIUM',

@@ -99,6 +99,21 @@ const project: IProject.Payload = {
           ],
         },
         {
+          content: '관련 기술블로그',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: 'React에서 Mobx 경험기 (Redux와 비교기)',
+              href: 'https://woowabros.github.io/experience/2019/01/02/kimcj-react-mobx.html',
+            },
+            {
+              content: '[마이크로서비스] 스프링 마이크로서비스 정리 (spring microservice, msa)',
+              href:
+                'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary.html',
+            },
+          ],
+        },
+        {
           content: '효과',
           weight: 'MEDIUM',
           descriptions: [
@@ -118,21 +133,6 @@ const project: IProject.Payload = {
                 'MSA로 구성시 시스템간 단순 ACTION을 처리하는 것과는 다르게 DB 데이터를 완전히 분리하여 이벤트소싱으로 서로 동기화 하고 부가적인 연동 처리 (Email 발송, 회계시스템 연동 등등)등 다소 복잡한 구성을 MSA 로 처리한다는 것은 기술 문서나 기술동향에 정답이 있다기 보다 상황에 맞게 절절히 (비동기, 동기) 처리 해야함을 느낌',
             },
             { content: '실무적인 경험이 더 중요한 분야 같음' },
-          ],
-        },
-        {
-          content: '관련 기술블로그',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content: 'React에서 Mobx 경험기 (Redux와 비교기)',
-              href: 'https://woowabros.github.io/experience/2019/01/02/kimcj-react-mobx.html',
-            },
-            {
-              content: '[마이크로서비스] 스프링 마이크로서비스 정리 (spring microservice, msa)',
-              href:
-                'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary.html',
-            },
           ],
         },
       ],
@@ -173,6 +173,16 @@ const project: IProject.Payload = {
           ],
         },
         {
+          content: '관련 기술블로그',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: '실시간 서비스 경험기(배달운영시스템)',
+              href: 'https://woowabros.github.io/woowabros/2017/09/12/realtime-service.html',
+            },
+          ],
+        },
+        {
           content: '효과',
           weight: 'MEDIUM',
           descriptions: [
@@ -205,16 +215,6 @@ const project: IProject.Payload = {
             {
               content:
                 '실무를 통해서만 습득 할 수 있는 실시간 서비스만의 개발, 운영 이슈에 대한 깊이 있는 경험.',
-            },
-          ],
-        },
-        {
-          content: '관련 기술블로그',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content: '실시간 서비스 경험기(배달운영시스템)',
-              href: 'https://woowabros.github.io/woowabros/2017/09/12/realtime-service.html',
             },
           ],
         },
@@ -251,6 +251,16 @@ const project: IProject.Payload = {
             { content: 'Back-End - Node.js, Socket.io' },
             { content: 'Front-End - AngularJs 1.xx' },
             { content: 'Etc - Redis pub/sub, Websocket' },
+          ],
+        },
+        {
+          content: '관련 기술블로그',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: '실시간 서비스 경험기(배달운영시스템)',
+              href: 'https://woowabros.github.io/woowabros/2017/09/12/realtime-service.html',
+            },
           ],
         },
         {
@@ -292,16 +302,6 @@ const project: IProject.Payload = {
                 'Redis에는 데이터구조를 되도록 단순하게 설계, 관리 필요성과, Node.js는 동기적으로 처리하는 로직은 지양 해야함을 크게 느낌',
             },
             { content: 'NameSpace, Room, EventType 별로 적절한 구조화 필요' },
-            {
-              content: '관련 기술블로그',
-              weight: 'MEDIUM',
-              descriptions: [
-                {
-                  content: '실시간 서비스 경험기(배달운영시스템)',
-                  href: 'https://woowabros.github.io/woowabros/2017/09/12/realtime-service.html',
-                },
-              ],
-            },
           ],
         },
       ],

@@ -20,6 +20,11 @@ const project: IProject.Payload = {
           href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v2.html',
         },
         {
+          content: '프로젝트 참여도',
+          weight: 'MEDIUM',
+          descriptions: [{ content: '프로젝트 인원 6명 중 프로젝트 원으로 참여' }],
+        },
+        {
           content: '주요기능',
           weight: 'MEDIUM',
           descriptions: [
@@ -76,6 +81,15 @@ const project: IProject.Payload = {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
           href: 'https://kimchanjung.github.io/projects/2020/01/01/brms.html',
+        },
+        {
+          content: '프로젝트 참여도',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '프로젝트 인원 2명 중 개발 리딩 역할' },
+            { content: '백엔드 전반적인 설계 및 프로젝트 기본 코드 생성 등등' },
+            { content: 'React 프론트는 대부분 80% 전담 개발' },
+          ],
         },
         {
           content: '주요기능',
@@ -149,6 +163,16 @@ const project: IProject.Payload = {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
           href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v1.html',
+        },
+        {
+          content: '프로젝트 참여도',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '프로젝트 인원 5명 중 관리페이지 및 웹소켓서버 개발 전담' },
+            { content: '배민라이더스운영시스템 API와 angularjs 전담하여 개발' },
+            { content: 'websocket 서버를 전담하여 개발' },
+            { content: '나머지 인원은 라이더앱 및 라이더앱 API 개발과 결제시스템 개발함' },
+          ],
         },
         {
           content: '주요기능',
@@ -234,6 +258,11 @@ const project: IProject.Payload = {
           href: 'https://kimchanjung.github.io/projects/2020/01/01/socket-io-server.html',
         },
         {
+          content: '프로젝트 참여도',
+          weight: 'MEDIUM',
+          descriptions: [{ content: '프로젝트 인원 1명 전담하여 개발' }],
+        },
+        {
           content: '주요기능',
           weight: 'MEDIUM',
           descriptions: [
@@ -313,6 +342,11 @@ const project: IProject.Payload = {
       where: '우아한형제들(배달의민족)',
       descriptions: [
         {
+          content: '프로젝트 참여도',
+          weight: 'MEDIUM',
+          descriptions: [{ content: '프로젝트 인원 2명 중 개발 및 프로젝트 리딩' }],
+        },
+        {
           content: '주요기능',
           weight: 'MEDIUM',
           descriptions: [
@@ -359,6 +393,11 @@ const project: IProject.Payload = {
       endedAt: '2012-07',
       where: '주)부동산써브',
       descriptions: [
+        {
+          content: '프로젝트 참여도',
+          weight: 'MEDIUM',
+          descriptions: [{ content: '프로젝트 인원 1명 전담개발' }],
+        },
         {
           content: '주요기능',
           weight: 'MEDIUM',
@@ -407,6 +446,11 @@ const project: IProject.Payload = {
       endedAt: '2012-03',
       where: '주)부동산써브',
       descriptions: [
+        {
+          content: '프로젝트 참여도',
+          weight: 'MEDIUM',
+          descriptions: [{ content: '프로젝트 인원 1명 전담개발' }],
+        },
         {
           content: '주요기능',
           weight: 'MEDIUM',

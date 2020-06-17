@@ -13,11 +13,11 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'JPA',
-      level: 3,
+      level: 2,
     },
     {
       title: 'PHP',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Node.js',
@@ -35,15 +35,15 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
+      level: 2,
     },
     {
       title: 'SqlSever',
-      level: 3,
+      level: 2,
     },
     {
       title: 'Redis',
-      level: 2,
+      level: 1,
     },
     {
       title: 'InfluxDB',
@@ -65,7 +65,7 @@ const frontend: ISkill.Skill = {
     },
     {
       title: 'Javascript',
-      level: 3,
+      level: 2,
     },
     {
       title: 'AngularJS 1.xx',
@@ -73,11 +73,11 @@ const frontend: ISkill.Skill = {
     },
     {
       title: 'Webpack',
-      level: 3,
+      level: 2,
     },
     {
       title: 'NPM 생태계',
-      level: 3,
+      level: 2,
     },
     {
       title: 'HTML/CSS',

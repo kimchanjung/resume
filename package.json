@@ -44,6 +44,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
+    "@pinjollist/next-with-analytics": "^1.0.0-rc.0",
     "@types/debug": "^4.1.5",
     "bootstrap": "^4.4.1",
     "chalk": "^4.0.0",

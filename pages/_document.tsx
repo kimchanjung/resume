@@ -1,4 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document';
+import GoogleAnalytics from 'next-simple-google-analytics';
 
 export default class ResumeDocument extends Document {
   render() {
@@ -16,6 +17,7 @@ export default class ResumeDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Parisienne&display=swap"
             rel="stylesheet"
           />
+          <GoogleAnalytics id="UA-165866221-1" />
         </Head>
         <body>
           <Main />

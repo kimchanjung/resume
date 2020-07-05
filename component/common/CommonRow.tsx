@@ -16,30 +16,34 @@ export function CommonRows({
     <div>
       {index > 0 ? <hr /> : ''}
       <Row>
-        <Col sm={12} md={3} className="text-md-right">
-          <Row>
-            <Col md={12}>
-              <h4 style={Style.gray}>{left.title}</h4>
-            </Col>
-            {right.projectImg ? (
+        {left.title || right.projectImg ? (
+          <Col sm={12} md={3} className="text-md-right">
+            <Row>
               <Col md={12}>
-                <img
-                  style={{
-                    maxHeight: '320px',
-                    margin: '10px 0px 30px 0px',
-                    boxShadow: '5px 5px 5px #000',
-                  }}
-                  className="img-fluid rounded"
-                  src={right.projectImg}
-                  alt="ProjectImg"
-                />
+                <h4 style={Style.gray}>{left.title}</h4>
               </Col>
-            ) : (
-              ''
-            )}
-            {left.subTitle ? <Col md={12}>{left.subTitle}</Col> : ''}
-          </Row>
-        </Col>
+              {right.projectImg ? (
+                <Col md={12}>
+                  <img
+                    style={{
+                      maxHeight: '320px',
+                      margin: '10px 0px 30px 0px',
+                      boxShadow: '5px 5px 5px #000',
+                    }}
+                    className="img-fluid rounded"
+                    src={right.projectImg}
+                    alt="ProjectImg"
+                  />
+                </Col>
+              ) : (
+                ''
+              )}
+              {left.subTitle ? <Col md={12}>{left.subTitle}</Col> : ''}
+            </Row>
+          </Col>
+        ) : (
+          ''
+        )}
         <Col sm={12} md={9}>
           {right.title ? <h4>{right.title}</h4> : ''}
           {right.subTitle ? <i style={Style.gray}>{right.subTitle}</i> : ''}

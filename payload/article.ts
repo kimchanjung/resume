@@ -17,6 +17,31 @@ const article: IArticle.Payload = {
       href: 'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary.html',
     },
     {
+      content:
+        '[Spring Security] 커스텀 필터를 이용한 인증 구현 - 스프링시큐리티 동작구조의 이해(1)',
+      href: 'https://kimchanjung.github.io/spring/2020/07/01/spring-security-01.html',
+    },
+    {
+      content:
+        '[Spring] JPA EntityListeners에서 @Autowired를 통한 의존성 주입이 미동작하는 문제 해결',
+      href:
+        'https://kimchanjung.github.io/spring/2020/06/28/spring-jpa-antity-listner-autowired-not-working.html',
+    },
+
+    {
+      content: '[Spring] yarn 빌드 react 프로젝트를 gradle에 통합 포함하여 빌드하는 방법',
+      href:
+        'https://kimchanjung.github.io/spring/2020/06/24/spring-gradle-build-with-front-end.html',
+    },
+    {
+      content: '[React] Mobx의 async action(비동기 액션) 처리를 가장 깔끔하게 구현하는 방법',
+      href: 'https://kimchanjung.github.io/react/2020/06/24/react-mobx-async-action.html',
+    },
+    {
+      content: '[React] 로딩처리용 spinner를 효과적이고 깔끔하게 적용하는 방법',
+      href: 'https://kimchanjung.github.io/react/2020/06/26/react-spinner.html',
+    },
+    {
       content: '코틀린 기본 문법 요약 정리 - [kotlin/cheat sheet]',
       href: 'https://kimchanjung.github.io/kotlin/2020/05/06/kotlin-basic-syntax-summary.html',
     },

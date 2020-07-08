@@ -38,9 +38,9 @@ const project: IProject.Payload = {
           content: '사용기술',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Back-End - Java, Spring-Boot, JPA' },
+            { content: 'Back-End - <strong>Java, Spring-Boot, JPA</strong>' },
             { content: 'Front-End - WoowahanJS(사내 SPA Framework)' },
-            { content: 'Etc - AWS, Redis, Websocket' },
+            { content: 'Etc - <strong>AWS, Redis, Websocket</strong>' },
           ],
         },
         {
@@ -107,9 +107,9 @@ const project: IProject.Payload = {
           content: '사용기술',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Back-End - Java, Spring-Boot, JPA' },
-            { content: 'Front-End - React, Mobx, Material-UI' },
-            { content: 'Etc - Amazon SNS, SQS' },
+            { content: 'Back-End - <strong>Java, Spring-Boot, JPA</strong>' },
+            { content: 'Front-End - <strong>React, Mobx, Material-UI</strong>' },
+            { content: 'Etc - <strong>Amazon SNS, SQS</strong>' },
           ],
         },
         {
@@ -192,8 +192,8 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: 'Back-End - PHP, Node.js, Socket.io' },
-            { content: 'Front-End - AngularJs 1.xx' },
-            { content: 'Etc - Redis, Websocket' },
+            { content: 'Front-End - <strong>AngularJs 1.xx</strong>' },
+            { content: 'Etc - <strong>Redis, Websocket</strong>' },
           ],
         },
         {
@@ -277,9 +277,9 @@ const project: IProject.Payload = {
           content: '사용기술',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Back-End - Node.js, Socket.io' },
-            { content: 'Front-End - AngularJs 1.xx' },
-            { content: 'Etc - Redis pub/sub, Websocket' },
+            { content: 'Back-End - <strong>Node.js, Socket.io</strong>' },
+            { content: 'Front-End - <strong>AngularJs 1.xx</strong>' },
+            { content: 'Etc - <strong>Redis pub/sub, Websocket</strong>' },
           ],
         },
         {
@@ -361,7 +361,7 @@ const project: IProject.Payload = {
           content: '사용기술',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Back-End - Java Spring, JPA' },
+            { content: 'Back-End - <strong>Java Spring, JPA</strong>' },
             { content: 'Front-End - WoowahanJS(사내 SPA Framework)' },
             { content: 'Etc - AWS, Redis' },
           ],

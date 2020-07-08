@@ -1,8 +1,8 @@
-import { Row, Col, Badge } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import { PropsWithChildren } from 'react';
-import { DateTime } from 'luxon';
+// import { DateTime } from 'luxon';
 import { Style } from '../common/Style';
-import Util from '../common/Util';
+// import Util from '../common/Util';
 import { IIntroduce } from './IIntroduce';
 import { PreProcessingComponent } from '../common/PreProcessingComponent';
 
@@ -18,13 +18,13 @@ export const Introduce = {
 };
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
-  const latestUpdated = DateTime.fromFormat(
-    payload.latestUpdated,
-    Util.LUXON_DATE_FORMAT.YYYY_LL_DD,
-  );
-  const latestUpdatedByNow = Math.floor(
-    DateTime.local().diff(latestUpdated).milliseconds / 1000 / 60 / 60 / 24,
-  );
+  // const latestUpdated = DateTime.fromFormat(
+  //   payload.latestUpdated,
+  //   Util.LUXON_DATE_FORMAT.YYYY_LL_DD,
+  // );
+  // const latestUpdatedByNow = Math.floor(
+  //   DateTime.local().diff(latestUpdated).milliseconds / 1000 / 60 / 60 / 24,
+  // );
 
   return (
     <div className="mt-5">
@@ -34,19 +34,19 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         </Col>
         <Col sm={12} md={9}>
           {payload.contents.map((content, index) => (
-            <p key={index.toString()}>{content}</p>
+            <p dangerouslySetInnerHTML={{ __html: content }} key={index.toString()} />
           ))}
-          <p className="text-right">
+          {/* <p className="text-right">
             <small>Latest Updated</small>{' '}
             <Badge color="secondary">
               {`${latestUpdated.toFormat(
                 Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD,
               )} (D+${latestUpdatedByNow})`}
             </Badge>
-          </p>
-          <p className="text-right" style={Style.sign}>
+          </p> */}
+          {/* <p className="text-right" style={Style.sign}>
             {payload.sign}
-          </p>
+          </p> */}
         </Col>
       </Row>
     </div>

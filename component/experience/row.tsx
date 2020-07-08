@@ -21,7 +21,7 @@ export default function ExperienceRow({
           <i style={Style.gray}>{item.position}</i>
           <ul className="pt-3">
             {item.descriptions.map((description, descIndex) => (
-              <li key={descIndex.toString()}>{description}</li>
+              <li dangerouslySetInnerHTML={{ __html: description }} key={descIndex.toString()} />
             ))}
             {createSkillKeywords(item.skillKeywords)}
           </ul>

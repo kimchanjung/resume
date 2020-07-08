@@ -73,27 +73,26 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
     }
     if (postHref && postImage) {
       return (
-        <li style={getFontWeight(weight)}>
-          {content} <HrefTargetBlank url={postHref} text={postHref} />{' '}
-          <img src={postImage} alt={postImage} />
+        <li style={getFontWeight(weight)} dangerouslySetInnerHTML={{ __html: content }}>
+          <HrefTargetBlank url={postHref} text={postHref} /> <img src={postImage} alt={postImage} />
         </li>
       );
     }
     if (postHref) {
       return (
-        <li style={getFontWeight(weight)}>
-          {content} <HrefTargetBlank url={postHref} text={postHref} />
+        <li style={getFontWeight(weight)} dangerouslySetInnerHTML={{ __html: content }}>
+          <HrefTargetBlank url={postHref} text={postHref} />
         </li>
       );
     }
     if (postImage) {
       return (
-        <li style={getFontWeight(weight)}>
-          {content} <img src={postImage} alt={postImage} />
+        <li style={getFontWeight(weight)} dangerouslySetInnerHTML={{ __html: content }}>
+          <img src={postImage} alt={postImage} />
         </li>
       );
     }
-    return <li style={getFontWeight(weight)}>{content}</li>;
+    return <li style={getFontWeight(weight)} dangerouslySetInnerHTML={{ __html: content }} />;
   })();
 
   return component;

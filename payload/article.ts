@@ -5,12 +5,12 @@ const article: IArticle.Payload = {
 
   list: [
     {
-      content: '[Mobx] React 에서 Mobx 사용기',
-      href: 'https://kimchanjung.github.io/tech/2020/05/08/react-mobx.html',
+      content: '우아한형제들 기술 블로그 - React 에서 Mobx 사용기',
+      href: 'https://woowabros.github.io/experience/2019/01/02/kimcj-react-mobx.html',
     },
     {
-      content: '[Socket.io][websocket] 실시간 서비스 경험기(배달운영시스템 BROS1.0)',
-      href: 'https://kimchanjung.github.io/tech/2020/05/08/real-time-service.html',
+      content: '우아한형제들 기술 블로그 - 실시간 서비스 경험기(배달운영시스템 BROS1.0)',
+      href: 'https://woowabros.github.io/woowabros/2017/09/12/realtime-service.html',
     },
     {
       content: '[마이크로서비스] 스프링 마이크로서비스 정리 (spring microservice, msa)',

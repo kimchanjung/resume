@@ -26,15 +26,16 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com/kimchanjung',
-      link: 'https://github.com/kimchanjung',
-      icon: faGithub,
-    },
-    {
       title: 'https://kimchanjung.github.io/',
       link: 'https://kimchanjung.github.io/',
       icon: faBlogger,
     },
+    {
+      title: 'https://github.com/kimchanjung',
+      link: 'https://github.com/kimchanjung',
+      icon: faGithub,
+    },
+
     /** 
     {
       link: 'https://www.facebook.com/gomezwai.mo.3',

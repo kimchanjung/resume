@@ -5,6 +5,7 @@ const experience: IExperience.Payload = {
   list: [
     {
       title: '우아한형제들(배달의민족) - 딜리버리플랫폼팀(배민라이더스)',
+      companyDesc: '배민라이더스는 배달되지 않는 음식점의 음식을 대신 배달 해주는 서비스 입니다.',
       position:
         'Java 백엔드, 라이더앱 API, React 프론트엔드 개발, 실시간 라이더 관제/배달/배차 운영 시스템 개발',
       startedAt: '2013-03',
@@ -36,6 +37,8 @@ const experience: IExperience.Payload = {
     },
     {
       title: '주)부동산써브',
+      companyDesc:
+        '부동산 매물 정보 및 투자 교육 컨설팅 종합 포털 사이트를 운영하고 부동산중개업소 프랜차이즈 회원을 보유하고 있습니다.',
       position: '웹개발',
       startedAt: '2008-09',
       endedAt: '2012-08',

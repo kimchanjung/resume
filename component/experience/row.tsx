@@ -15,6 +15,7 @@ export default function ExperienceRow({
       <Row>
         <Col sm={12} md={3} className="text-md-right">
           {createWorkingPeriod(item.startedAt, item.endedAt)}
+          {item.companyDesc}
         </Col>
         <Col sm={12} md={9}>
           <h4>{item.title}</h4>

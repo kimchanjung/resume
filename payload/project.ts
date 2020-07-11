@@ -429,6 +429,10 @@ const project: IProject.Payload = {
               content:
                 '스마트폰이 본격적으로 보급되기 시작하고 모바일 페이지의 필요성이 생김, 그러나 기존 모바일 페이지로 유입되는 비율을 매우 낮았음, <span class="text-highlighter">하이브리드앱 출시 이후 접근성이 상승, 페이지 유입이 급격하게 상승 했던 효과.</span>',
             },
+            {
+              content:
+                '<span class="text-highlighter">당시 개인 프로젝트로 안드로이드로 시작함</span>, 기존 웹페이지의 웹뷰+네이티브를 합친 하이브리드앱을 만들고 있었고 앱스토어에 올려도 괜찮겠다는 회사의 결정으로 출시.',
+            },
           ],
         },
         {
@@ -436,8 +440,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             {
-              content:
-                '<span class="text-highlighter">당시 개인 프로젝트로 안드로이드로 시작함</span>, 기존 웹페이지의 웹뷰+네이티브를 합친 하이브리드앱을 만들고 있었고 앱스토어에 올려도 괜찮겠다는 회사의 결정으로 출시, 개인적으로 시작한 일이 회사에 도움이 되는 일로 이어짐에 보람을 느낌.',
+              content: '개인적으로 시작한 일이 회사에 도움이 되는 일로 이어짐에 보람을 느낌.',
             },
             {
               content:

@@ -53,25 +53,25 @@ const project: IProject.Payload = {
             },
           ],
         },
-        {
-          content: '느낀점',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                '본격적으로 팀내 코드 리뷰, 테스트코드, Pair Programming 문화가 정착 되기 시작한 프로젝트',
-            },
-            { content: '팀내 개발 문화가 시스템 안정성을 높이는 결과를 가져왔음(무장애 300일)' },
-            {
-              content:
-                '장애 발생시 대외 신뢰성 추락, 금전적 피해를 감안해 보았을 때 안정성은 매우 중요한 가치라는 것을 증명해 보임(결과물을 빨리 내는 것에 대비하여)',
-            },
-          ],
-        },
+        // {
+        //   content: '느낀점',
+        //   weight: 'MEDIUM',
+        //   descriptions: [
+        //     {
+        //       content:
+        //         '본격적으로 팀내 코드 리뷰, 테스트코드, Pair Programming 문화가 정착 되기 시작한 프로젝트',
+        //     },
+        //     { content: '팀내 개발 문화가 시스템 안정성을 높이는 결과를 가져왔음(무장애 300일)' },
+        //     {
+        //       content:
+        //         '장애 발생시 대외 신뢰성 추락, 금전적 피해를 감안해 보았을 때 안정성은 매우 중요한 가치라는 것을 증명해 보임(결과물을 빨리 내는 것에 대비하여)',
+        //     },
+        //   ],
+        // },
       ],
     },
     {
-      title: '라이더관리시스템',
+      title: '라이더운영시스템',
       startedAt: '2019-02',
       endedAt: '2019-05',
       where: '우아한형제들(배달의민족)',
@@ -133,22 +133,26 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
+                '<span class="text-highlighter">React + Mobx의 주말 개인 프로젝트로 Front-End의 60% 정도의 베이스코드를 완성</span>하여 실제 개발 기간단축 및 팀내 차기 Front-End SPA 프레임워크 채택의 결정적 역할을 함(vs Vue.js)',
+            },
+            {
+              content:
                 '기존 배달운영시스템에 포함 되어 있던 라이더 관련 기능을 MSA로 별도의 시스템으로 분리 신규 개발',
             },
             { content: '시스템간 강한 의존성을 제거' },
           ],
         },
-        {
-          content: '느낀점',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                'MSA로 구성시 시스템간 단순 ACTION을 처리하는 것과는 다르게 DB 데이터를 완전히 분리하여 이벤트소싱으로 서로 동기화 하고 부가적인 연동 처리 (Email 발송, 회계시스템 연동 등등)등 다소 복잡한 구성을 MSA 로 처리한다는 것은 기술 문서나 기술동향에 정답이 있다기 보다 상황에 맞게 절절히 (비동기, 동기) 처리 해야함을 느낌',
-            },
-            { content: '실무적인 경험이 더 중요한 분야 같음' },
-          ],
-        },
+        // {
+        //   content: '느낀점',
+        //   weight: 'MEDIUM',
+        //   descriptions: [
+        //     {
+        //       content:
+        //         'MSA로 구성시 시스템간 단순 ACTION을 처리하는 것과는 다르게 DB 데이터를 완전히 분리하여 이벤트소싱으로 서로 동기화 하고 부가적인 연동 처리 (Email 발송, 회계시스템 연동 등등)등 다소 복잡한 구성을 MSA 로 처리한다는 것은 기술 문서나 기술동향에 정답이 있다기 보다 상황에 맞게 절절히 (비동기, 동기) 처리 해야함을 느낌',
+        //     },
+        //     { content: '실무적인 경험이 더 중요한 분야 같음' },
+        //   ],
+        // },
       ],
     },
 
@@ -224,24 +228,24 @@ const project: IProject.Payload = {
             },
           ],
         },
-        {
-          content: '느낀점',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                'AngularJS + Socket.io 신기술의 장점을 활용하여 개발 해볼 수 있었던 기회 통해 출근이 기다려지는 기분을 경험.',
-            },
-            {
-              content:
-                '실시간 서비스라는 다소 생소하고 복잡한 서비스 경험에 엄청난 개발욕구를 경험',
-            },
-            {
-              content:
-                '실무를 통해서만 습득 할 수 있는 실시간 서비스만의 개발, 운영 이슈에 대한 깊이 있는 경험.',
-            },
-          ],
-        },
+        // {
+        //   content: '느낀점',
+        //   weight: 'MEDIUM',
+        //   descriptions: [
+        //     {
+        //       content:
+        //         'AngularJS + Socket.io 신기술의 장점을 활용하여 개발 해볼 수 있었던 기회 통해 출근이 기다려지는 기분을 경험.',
+        //     },
+        //     {
+        //       content:
+        //         '실시간 서비스라는 다소 생소하고 복잡한 서비스 경험에 엄청난 개발욕구를 경험',
+        //     },
+        //     {
+        //       content:
+        //         '실무를 통해서만 습득 할 수 있는 실시간 서비스만의 개발, 운영 이슈에 대한 깊이 있는 경험.',
+        //     },
+        //   ],
+        // },
       ],
     },
 
@@ -298,41 +302,45 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
+                'SaaS서비스인 pubnub을 사용하여 실시간 처리를 구현 하였지만 <span class="text-highlighter">주말 개인 프로젝트로 시작하여 내재화에 성공함</span>',
+            },
+            {
+              content:
                 '실시간 이벤트가 필요한 서비스에 기능을 제공, 이를 활용하여 실시간성을 실현 및 DB 호출 수를 현저하게 낮춤.',
             },
           ],
         },
-        {
-          content: '느낀점',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                '초기 개발 문서에 간략히 기술 된 이벤트 수신후 송신 부분만 구현 하면 되는 비교적 간단한 로직으로 생각(빙산의 일각)',
-            },
-            {
-              content:
-                'Node.js는 싱글 프로세스, 서버의 CPU Core 수만큼 Multi-Processing을 코드로 구현 해야 함',
-            },
-            {
-              content:
-                'Multi-Processing로 인하여 process간 상태(이벤트 메시지 데이터 및 관리 데이터)공유 이슈는 Redis pub/sub사용하여 해결.',
-            },
-            {
-              content:
-                'Client의 접속이 처음 접속한 Process에만 통신 하도록 sticky-session을 적용하여 해결함.',
-            },
-            {
-              content:
-                '서버현황데이터 제공을 위하여 Client, NameSpace, Room 현황 데이터를 Redis로 관리하던 중 간혹 동기식 처리로직으로 인하여 급격한 성능저하를 경험.',
-            },
-            {
-              content:
-                'Redis에는 데이터구조를 되도록 단순하게 설계, 관리 필요성과, Node.js는 동기적으로 처리하는 로직은 지양 해야함을 크게 느낌',
-            },
-            { content: 'NameSpace, Room, EventType 별로 적절한 구조화 필요' },
-          ],
-        },
+        // {
+        //   content: '느낀점',
+        //   weight: 'MEDIUM',
+        //   descriptions: [
+        //     {
+        //       content:
+        //         '초기 개발 문서에 간략히 기술 된 이벤트 수신후 송신 부분만 구현 하면 되는 비교적 간단한 로직으로 생각(빙산의 일각)',
+        //     },
+        //     {
+        //       content:
+        //         'Node.js는 싱글 프로세스, 서버의 CPU Core 수만큼 Multi-Processing을 코드로 구현 해야 함',
+        //     },
+        //     {
+        //       content:
+        //         'Multi-Processing로 인하여 process간 상태(이벤트 메시지 데이터 및 관리 데이터)공유 이슈는 Redis pub/sub사용하여 해결.',
+        //     },
+        //     {
+        //       content:
+        //         'Client의 접속이 처음 접속한 Process에만 통신 하도록 sticky-session을 적용하여 해결함.',
+        //     },
+        //     {
+        //       content:
+        //         '서버현황데이터 제공을 위하여 Client, NameSpace, Room 현황 데이터를 Redis로 관리하던 중 간혹 동기식 처리로직으로 인하여 급격한 성능저하를 경험.',
+        //     },
+        //     {
+        //       content:
+        //         'Redis에는 데이터구조를 되도록 단순하게 설계, 관리 필요성과, Node.js는 동기적으로 처리하는 로직은 지양 해야함을 크게 느낌',
+        //     },
+        //     { content: 'NameSpace, Room, EventType 별로 적절한 구조화 필요' },
+        //   ],
+        // },
       ],
     },
     {
@@ -375,16 +383,16 @@ const project: IProject.Payload = {
             },
           ],
         },
-        {
-          content: '느낀점',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content:
-                '라이더 지원정보를 어떤 방식으로 라이더정보 엔티티로 구성할지에 대한 ORM(JPA)적 관점에서 깊이 있는 고민을 할 수 있었던 프로젝트.',
-            },
-          ],
-        },
+        // {
+        //   content: '느낀점',
+        //   weight: 'MEDIUM',
+        //   descriptions: [
+        //     {
+        //       content:
+        //         '라이더 지원정보를 어떤 방식으로 라이더정보 엔티티로 구성할지에 대한 ORM(JPA)적 관점에서 깊이 있는 고민을 할 수 있었던 프로젝트.',
+        //     },
+        //   ],
+        // },
       ],
     },
     {
@@ -419,7 +427,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                '스마트폰이 본격적으로 보급되기 시작하고 모바일 페이지의 필요성이 생김, 그러나 기존 모바일 페이지로 유입되는 비율을 매우 낮았음, 하이브리드앱 출시 이후 접근성이 상승, 페이지 유입이 급격하게 상승 했던 효과.',
+                '스마트폰이 본격적으로 보급되기 시작하고 모바일 페이지의 필요성이 생김, 그러나 기존 모바일 페이지로 유입되는 비율을 매우 낮았음, <span class="text-highlighter">하이브리드앱 출시 이후 접근성이 상승, 페이지 유입이 급격하게 상승 했던 효과.</span>',
             },
           ],
         },
@@ -429,7 +437,7 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                '당시 개인 프로젝트로 안드로이드로 시작함, 기존 웹페이지의 웹뷰+네이티브를 합친 하이브리드앱을 만들고 있었고 앱스토어에 올려도 괜찮겠다는 회사의 결정으로 출시, 개인적으로 시작한 일이 회사에 도움이 되는 일로 이어짐에 보람을 느낌.',
+                '<span class="text-highlighter">당시 개인 프로젝트로 안드로이드로 시작함</span>, 기존 웹페이지의 웹뷰+네이티브를 합친 하이브리드앱을 만들고 있었고 앱스토어에 올려도 괜찮겠다는 회사의 결정으로 출시, 개인적으로 시작한 일이 회사에 도움이 되는 일로 이어짐에 보람을 느낌.',
             },
             {
               content:
@@ -475,15 +483,15 @@ const project: IProject.Payload = {
             },
           ],
         },
-        {
-          content: '느낀점',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content: '모바일 버전의 UX 경험 제공을 위한 Javascript의 깊이 있는 사용 경험',
-            },
-          ],
-        },
+        // {
+        //   content: '느낀점',
+        //   weight: 'MEDIUM',
+        //   descriptions: [
+        //     {
+        //       content: '모바일 버전의 UX 경험 제공을 위한 Javascript의 깊이 있는 사용 경험',
+        //     },
+        //   ],
+        // },
       ],
     },
   ],

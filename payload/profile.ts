@@ -1,7 +1,7 @@
 import { faEnvelope, faPhone, faInfo } from '@fortawesome/free-solid-svg-icons';
 // import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faBlogger } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/profile-image.png';
+import image from '../asset/profile-photo.jpg';
 import { IProfile } from '../component/profile/IProfile';
 import { author } from '../package.json';
 
@@ -21,7 +21,7 @@ const profile: IProfile.Payload = {
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '010-6751-1979',
       icon: faPhone,
       badge: true,
     },

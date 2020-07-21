@@ -14,7 +14,7 @@ export default function ExperienceRow({
       {index > 0 ? <hr /> : ''}
       <Row>
         <Col sm={12} md={3} className="text-md-right">
-          {createWorkingPeriod(item.startedAt, item.endedAt)}
+          {createWorkingPeriod(item)}
           {item.companyDesc}
         </Col>
         <Col sm={12} md={9}>
@@ -55,19 +55,19 @@ function createSkillKeywords(skillKeywords?: string[]) {
   );
 }
 
-function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
+function createWorkingPeriod(item: IExperience.Item) {
   const DATE_FORMAT = Util.LUXON_DATE_FORMAT;
-  const startedAt = DateTime.fromFormat(startedAtString, DATE_FORMAT.YYYY_LL);
+  const startedAt = DateTime.fromFormat(item.startedAt, DATE_FORMAT.YYYY_LL);
 
   const { periodTitle, endedAt, isWorking } = (() => {
-    if (!endedAtString) {
+    if (!item.endedAt) {
       return {
         periodTitle: `${startedAt.toFormat(DATE_FORMAT.YYYY_DOT_LL)} ~`,
         isWorking: true,
       };
     }
 
-    const _endedAt = DateTime.fromFormat(endedAtString, DATE_FORMAT.YYYY_LL);
+    const _endedAt = DateTime.fromFormat(item.endedAt, DATE_FORMAT.YYYY_LL);
     return {
       periodTitle: `${startedAt.toFormat(DATE_FORMAT.YYYY_DOT_LL)} ~ ${_endedAt.toFormat(
         DATE_FORMAT.YYYY_DOT_LL,
@@ -92,6 +92,23 @@ function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
         )}
         <Badge color="info">{Util.getFormattingDuration(startedAt, endedAt)}</Badge>
       </Col>
+      {item.companyLogo ? (
+        <Col md={12}>
+          <img
+            style={{
+              maxHeight: '100px',
+              margin: '10px 0px 10px 0px',
+              boxShadow: '5px 5px 5px #000',
+              borderRadius: '0.6rem !important',
+            }}
+            className="img-fluid rounded"
+            src={item.companyLogo}
+            alt="CompanyLogo"
+          />
+        </Col>
+      ) : (
+        ''
+      )}
     </Row>
   );
 }

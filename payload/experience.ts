@@ -1,4 +1,6 @@
 import { IExperience } from '../component/experience/IExperience';
+import rserveLogo from '../asset/r-serve-logo.png';
+import woowaBrosLogo from '../asset/woowa-bros-logo.jpg';
 
 const experience: IExperience.Payload = {
   disable: false,
@@ -10,6 +12,7 @@ const experience: IExperience.Payload = {
         'Java 백엔드, 라이더앱 API, React 프론트엔드 개발, 실시간 라이더 관제/배달/배차 운영 시스템 개발',
       startedAt: '2013-03',
       endedAt: '2019-06',
+      companyLogo: woowaBrosLogo,
       descriptions: [
         '<strong>Java Spring Boot</strong> 기반으로 <strong>Back-End API</strong>, 라이더 앱 API 개발',
         '<strong>React, Mobx , Material-UI</strong> 활용 <strong>Front-End</strong> 개발(팀내 JavaScript Front-End 기술 리딩)',
@@ -42,6 +45,7 @@ const experience: IExperience.Payload = {
       position: '웹개발',
       startedAt: '2008-09',
       endedAt: '2012-08',
+      companyLogo: rserveLogo,
       descriptions: [
         '부동산써브 포털 사이트 개발',
         '부동산써브 모바일 웹 사이트 개발',

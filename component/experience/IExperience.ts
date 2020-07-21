@@ -39,6 +39,10 @@ export declare namespace IExperience {
 
     endedAt?: string;
     /**
+     * 직장로고이미지
+     */
+    companyLogo?: string;
+    /**
      * ### (직장)경험 설명
      *
      * @description 하나의 `string` 요소가 `<ul>` 태그 안의 `<li>` 가 된다.

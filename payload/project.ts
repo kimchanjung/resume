@@ -17,7 +17,7 @@ const project: IProject.Payload = {
         {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
-          href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v2.html',
+          href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v2/',
         },
         {
           content: '프로젝트 참여도',
@@ -80,7 +80,7 @@ const project: IProject.Payload = {
         {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
-          href: 'https://kimchanjung.github.io/projects/2020/01/01/brms.html',
+          href: 'https://kimchanjung.github.io/projects/2020/01/02/brms/',
         },
         {
           content: '프로젝트 참여도',
@@ -123,7 +123,7 @@ const project: IProject.Payload = {
             {
               content: '[마이크로서비스] 스프링 마이크로서비스 정리 (spring microservice, msa)',
               href:
-                'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary.html',
+                'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary/',
             },
           ],
         },
@@ -166,7 +166,7 @@ const project: IProject.Payload = {
         {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
-          href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v1.html',
+          href: 'https://kimchanjung.github.io/projects/2020/01/03/bros-v1/',
         },
         {
           content: '프로젝트 참여도',
@@ -259,7 +259,7 @@ const project: IProject.Payload = {
         {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
-          href: 'https://kimchanjung.github.io/projects/2020/01/01/socket-io-server.html',
+          href: 'https://kimchanjung.github.io/projects/2020/01/04/socket-io-server/',
         },
         {
           content: '프로젝트 참여도',

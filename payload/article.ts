@@ -14,45 +14,45 @@ const article: IArticle.Payload = {
     },
     {
       content: '[마이크로서비스] 스프링 마이크로서비스 정리 (spring microservice, msa)',
-      href: 'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary.html',
+      href: 'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary/',
     },
     {
       content:
         '[Spring Security] 커스텀 필터를 이용한 인증 구현 - 스프링시큐리티 동작구조의 이해(1)',
-      href: 'https://kimchanjung.github.io/spring/2020/07/01/spring-security-01.html',
+      href: 'https://kimchanjung.github.io/programming/2020/07/01/spring-security-01/',
     },
     {
       content:
         '[Spring] JPA EntityListeners에서 @Autowired를 통한 의존성 주입이 미동작하는 문제 해결',
       href:
-        'https://kimchanjung.github.io/spring/2020/06/28/spring-jpa-antity-listner-autowired-not-working.html',
+        'https://kimchanjung.github.io/programming/2020/06/28/spring-jpa-antity-listner-autowired-not-working/',
     },
 
     {
       content: '[Spring] yarn 빌드 react 프로젝트를 gradle에 통합 포함하여 빌드하는 방법',
       href:
-        'https://kimchanjung.github.io/spring/2020/06/24/spring-gradle-build-with-front-end.html',
+        'https://kimchanjung.github.io/programming/2020/06/24/spring-gradle-build-with-front-end/',
     },
     {
       content: '[React] Mobx의 async action(비동기 액션) 처리를 가장 깔끔하게 구현하는 방법',
-      href: 'https://kimchanjung.github.io/react/2020/06/24/react-mobx-async-action.html',
+      href: 'https://kimchanjung.github.io/programming/2020/06/24/react-mobx-async-action/',
     },
     {
       content: '[React] 로딩처리용 spinner를 효과적이고 깔끔하게 적용하는 방법',
-      href: 'https://kimchanjung.github.io/react/2020/06/26/react-spinner.html',
+      href: 'https://kimchanjung.github.io/programming/2020/06/26/react-spinner/',
     },
     {
       content: '코틀린 기본 문법 요약 정리 - [kotlin/cheat sheet]',
-      href: 'https://kimchanjung.github.io/kotlin/2020/05/06/kotlin-basic-syntax-summary.html',
+      href: 'https://kimchanjung.github.io/programming/2020/05/06/kotlin-basic-syntax-summary/',
     },
     {
       content: 'Sherlock and anagrams - hackerank [코테/알고리즘]',
       href:
-        'https://kimchanjung.github.io/algorithm/hackerrank/interviewkit/dictionaries-and-hashmaps/2020/05/08/sherlock-and-anagrams.html',
+        'https://kimchanjung.github.io/algorithm/2020/05/08/sherlock-and-anagrams/',
     },
     {
       content: '추상팩토리 패턴 - Abstract Factory Pattern',
-      href: 'https://kimchanjung.github.io/design/pattern/2020/05/14/abstract-factory-pattern.html',
+      href: 'https://kimchanjung.github.io/design-pattern/2020/05/14/abstract-factory-pattern/',
     },
   ],
 };

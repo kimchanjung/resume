@@ -47,8 +47,7 @@ const article: IArticle.Payload = {
     },
     {
       content: 'Sherlock and anagrams - hackerank [코테/알고리즘]',
-      href:
-        'https://kimchanjung.github.io/algorithm/2020/05/08/sherlock-and-anagrams/',
+      href: 'https://kimchanjung.github.io/algorithm/2020/05/08/sherlock-and-anagrams/',
     },
     {
       content: '추상팩토리 패턴 - Abstract Factory Pattern',
@@ -56,6 +55,5 @@ const article: IArticle.Payload = {
     },
   ],
 };
-
 
 export default article;

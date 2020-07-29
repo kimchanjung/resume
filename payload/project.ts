@@ -122,8 +122,7 @@ const project: IProject.Payload = {
             },
             {
               content: '[마이크로서비스] 스프링 마이크로서비스 정리 (spring microservice, msa)',
-              href:
-                'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary/',
+              href: 'https://kimchanjung.github.io/tech/2020/05/06/spring-microservice-summary/',
             },
           ],
         },

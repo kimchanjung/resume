@@ -31,7 +31,7 @@ const article: IArticle.Payload = {
     {
       content: '[Spring] yarn 빌드 react 프로젝트를 gradle에 통합 포함하여 빌드하는 방법',
       href:
-        'https://kimchanjung.github.io/programming/2020/06/24/spring-gradle-build-with-front-end/',
+        'https://kimchanjung.github.io/programming/2020/06/25/spring-gradle-build-with-front-end/',
     },
     {
       content: '[React] Mobx의 async action(비동기 액션) 처리를 가장 깔끔하게 구현하는 방법',

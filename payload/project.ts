@@ -17,7 +17,7 @@ const project: IProject.Payload = {
         {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
-          href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v2/',
+          href: 'https://kimchanjung.github.io/projects/2020/01/03/bros-v2/',
         },
         {
           content: '프로젝트 참여도',
@@ -80,7 +80,7 @@ const project: IProject.Payload = {
         {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
-          href: 'https://kimchanjung.github.io/projects/2020/01/02/brms/',
+          href: 'https://kimchanjung.github.io/projects/2020/01/04/brms/',
         },
         {
           content: '프로젝트 참여도',
@@ -165,7 +165,7 @@ const project: IProject.Payload = {
         {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
-          href: 'https://kimchanjung.github.io/projects/2020/01/03/bros-v1/',
+          href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v1/',
         },
         {
           content: '프로젝트 참여도',
@@ -258,7 +258,7 @@ const project: IProject.Payload = {
         {
           content: '프로젝트 상세정보 바로가기',
           weight: 'MEDIUM',
-          href: 'https://kimchanjung.github.io/projects/2020/01/04/socket-io-server/',
+          href: 'https://kimchanjung.github.io/projects/2020/01/02/socket-io-server/',
         },
         {
           content: '프로젝트 참여도',

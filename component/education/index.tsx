@@ -24,6 +24,9 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
     <CommonSection title="EDUCATION">
       <EducationRow payload={payload} />
+      <br />
+      <br />
+      <br />
     </CommonSection>
   );
 }

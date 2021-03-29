@@ -7,6 +7,7 @@ import project from './project';
 import presentation from './presentation';
 import education from './education';
 import article from './article';
+import projectOverView from './projectOverView';
 import etc from './etc';
 import footer from './footer';
 
@@ -24,6 +25,7 @@ import { IEtc } from '../component/etc/IEtc';
 import { IFooter } from '../component/footer/IFooter';
 import { IGlobal } from '../component/common/IGlobal';
 import { IArticle } from '../component/article/IArticle';
+import { IProjectOverView } from '../component/projectOverView/IProjectOverView';
 
 const Payload: Payload = {
   profile,
@@ -34,6 +36,7 @@ const Payload: Payload = {
   project,
   presentation,
   article,
+  projectOverView,
   education,
   etc,
   footer,
@@ -51,6 +54,7 @@ interface Payload {
   presentation: IPresentation.Payload;
   education: IEducation.Payload;
   article: IArticle.Payload;
+  projectOverView: IProjectOverView.Payload;
   etc: IEtc.Payload;
   footer: IFooter.Payload;
 

@@ -71,7 +71,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '라이더운영시스템',
+      title: '라이더 관리 운영시스템',
       startedAt: '2019-02',
       endedAt: '2019-05',
       where: '우아한형제들(배달의민족)',

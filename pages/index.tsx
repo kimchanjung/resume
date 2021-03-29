@@ -6,7 +6,7 @@ import { NextSeo } from 'next-seo';
 import { Education } from '../component/education';
 // import { Etc } from '../component/etc';
 import { Experience } from '../component/experience';
-import { Footer } from '../component/footer';
+// import { Footer } from '../component/footer';
 import { Introduce } from '../component/introduce';
 // import { OpenSource } from '../component/openSource';
 // import { Presentation } from '../component/presentation';
@@ -16,6 +16,7 @@ import { Skill } from '../component/skill';
 import { Style } from '../component/common/Style';
 import Payload from '../payload';
 import { Article } from '../component/article';
+import { ProjectOverView } from '../component/projectOverView';
 
 function Yosume() {
   return (
@@ -28,15 +29,16 @@ function Yosume() {
       <Container style={Style.global}>
         <Profile.Component payload={Payload.profile} />
         <Introduce.Component payload={Payload.introduce} />
-        <Skill.Component payload={Payload.skill} />
+        <ProjectOverView.Component payload={Payload.projectOverView} />
+        <Article.Component payload={Payload.article} />
         <Experience.Component payload={Payload.experience} />
         <Project.Component payload={Payload.project} />
         {/** <OpenSource.Component payload={Payload.openSource} />* */}
         {/** <Presentation.Component payload={Payload.presentation} />* */}
-        <Article.Component payload={Payload.article} />
+        <Skill.Component payload={Payload.skill} />
         <Education.Component payload={Payload.education} />
         {/** <Etc.Component payload={Payload.etc} />* */}
-        <Footer.Component payload={Payload.footer} />
+        {/* <Footer.Component payload={Payload.footer} /> */}
       </Container>
     </>
   );

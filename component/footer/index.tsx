@@ -24,7 +24,6 @@ function Component({ payload }: PropsWithChildren<{ payload: IFooter.Payload }>)
           <EmptyRowCol>
             <small>
               v.{`${payload.version} / `}
-              {/* Github 주소는 origin repository 의 주소를 넣는다. */}
               <HrefTargetBlank url={payload.github} text="Github" />
               {' / '}
               Thanks for <HrefTargetBlank url="https://blog.outsider.ne.kr/1234" text="Outsider" />

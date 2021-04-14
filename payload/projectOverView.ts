@@ -2,6 +2,7 @@ import { IArticle } from '../component/article/IArticle';
 
 const article: IArticle.Payload = {
   disable: false,
+  title: 'PROJECT OVERVIEW',
   list: [
     {
       content: 'BROS 2.0 (배민라이더스 오퍼레이팅 시스템)',

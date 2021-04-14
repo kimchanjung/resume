@@ -12,6 +12,7 @@ export declare namespace IArticle {
    */
   interface Payload extends ICommon.Payload {
     /** 아티클 리스트 */
+    title: string;
     list: IRow.Description[];
   }
 }

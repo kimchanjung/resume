@@ -30,6 +30,7 @@ function Yosume() {
         <Profile.Component payload={Payload.profile} />
         <Introduce.Component payload={Payload.introduce} />
         <ProjectOverView.Component payload={Payload.projectOverView} />
+        <Article.Component payload={Payload.codingStyle} />
         <Article.Component payload={Payload.article} />
         <Experience.Component payload={Payload.experience} />
         <Project.Component payload={Payload.project} />

@@ -2,7 +2,7 @@ import { IArticle } from '../component/article/IArticle';
 
 const article: IArticle.Payload = {
   disable: false,
-
+  title: 'ARTICLE',
   list: [
     {
       content: '우아한형제들 기술 블로그 - React 에서 Mobx 사용기',

@@ -8,6 +8,7 @@ import presentation from './presentation';
 import education from './education';
 import article from './article';
 import projectOverView from './projectOverView';
+import codingStyle from './codingStyle';
 import etc from './etc';
 import footer from './footer';
 
@@ -37,6 +38,7 @@ const Payload: Payload = {
   presentation,
   article,
   projectOverView,
+  codingStyle,
   education,
   etc,
   footer,
@@ -54,6 +56,7 @@ interface Payload {
   presentation: IPresentation.Payload;
   education: IEducation.Payload;
   article: IArticle.Payload;
+  codingStyle: IArticle.Payload;
   projectOverView: IProjectOverView.Payload;
   etc: IEtc.Payload;
   footer: IFooter.Payload;

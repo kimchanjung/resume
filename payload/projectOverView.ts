@@ -5,11 +5,11 @@ const article: IArticle.Payload = {
   title: 'PROJECT OVERVIEW',
   list: [
     {
-      content: 'BROS 2.0 (배민라이더스 오퍼레이팅 시스템)',
+      content: 'BROS 2.0 (배민라이더스 배달/배차 운영시스템)',
       href: 'https://kimchanjung.github.io/projects/2020/01/03/bros-v2/',
     },
     {
-      content: 'BROS 1.0 (배민라이더스 오퍼레이팅 시스템)',
+      content: 'BROS 1.0 (배민라이더스 배달/배차 운영시스템)',
       href: 'https://kimchanjung.github.io/projects/2020/01/01/bros-v1/',
     },
     {

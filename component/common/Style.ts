@@ -3,6 +3,7 @@ import { CSSProperties } from 'react';
 /** Style 추론을 위하여.. */
 type TStyleKey =
   | 'blue'
+  | 'mint'
   | 'gray'
   | 'global'
   | 'sign'
@@ -15,7 +16,9 @@ export const Style: Record<TStyleKey, CSSProperties> = {
   blue: {
     color: '#3c78d8',
   },
-
+  mint: {
+    color: '#45a5a0',
+  },
   gray: {
     color: 'gray',
   },

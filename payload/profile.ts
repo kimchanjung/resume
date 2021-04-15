@@ -52,7 +52,7 @@ const profile: IProfile.Payload = {
   ],
   notice: {
     title:
-      'JAVA 백엔드 개발자 / 배달의민족 / 우아한형제들 / 배민라이더스 실시간 관제 배차 운영 개발 / Java / Spring / React / Mobx / MSA',
+      'JAVA 백엔드 개발자(10년 4개월) / 배달의민족 / 우아한형제들 / 배민라이더스 실시간 관제 배차 운영 개발 / Java / Spring / React / Mobx / AWS / WebSocket',
     icon: faInfo,
   },
 };

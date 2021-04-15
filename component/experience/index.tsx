@@ -24,7 +24,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
       <EmptyRowCol>
         <Row className="pb-3">
           <Col>
-            <h2 style={Style.blue}>EXPERIENCE</h2>
+            <h2 style={Style.mint}>EXPERIENCE</h2>
           </Col>
         </Row>
         {payload.list.map((item, index) => (

@@ -31,6 +31,16 @@ npm install
 npm run dev
 ```
 
+## Export(Build)
+
+```bash
+npm run export
+```
+
+- `/docs` 하위에 Static HTML 리소스가 생성된다.
+- Sub Path 가지는 도메인 구조일 경우 (ex. https://uyu423.github.io/resume 로 호스팅) `package.json` 내의 `homepage` 필드 값을 호스팅 원하는 도메인으로 변경한다.
+  - `homepage` 필드에 `pathname` 이 있을 경우 `next.config.js` 의 `assetPrefix` 추가하는 로직이 있음
+
 ## Structure
 
 - asset/
@@ -119,16 +129,6 @@ npm run dev
 - 전역 설정(Web Title, SEO, favicon 등)에 대한 설정 영역
 - TypeDoc: [IGlobal.Payload](https://uyu423.github.io/resume-nextjs/typedoc/interfaces/iglobal.payload.html)
 - TS Sample: [payload/\_global.ts](https://github.com/uyu423/resume-nextjs/blob/master/payload/_global.ts)
-
-## Export
-
-```bash
-npm run export
-```
-
-- `/docs` 하위에 Static HTML 리소스가 생성된다.
-- Sub Path 가지는 도메인 구조일 경우 (ex. https://uyu423.github.io/resume 로 호스팅) `package.json` 내의 `homepage` 필드 값을 호스팅 원하는 도메인으로 변경한다.
-  - `homepage` 필드에 `pathname` 이 있을 경우 `next.config.js` 의 `assetPrefix` 추가하는 로직이 있음
 
 ### Export to Github Pages
 

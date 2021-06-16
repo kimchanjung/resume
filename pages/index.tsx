@@ -3,7 +3,7 @@ import { Container } from 'reactstrap';
 
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
-import { Education } from '../component/education';
+// import { Education } from '../component/education';
 // import { Etc } from '../component/etc';
 import { Experience } from '../component/experience';
 // import { Footer } from '../component/footer';
@@ -37,9 +37,12 @@ function Yosume() {
         {/** <OpenSource.Component payload={Payload.openSource} />* */}
         {/** <Presentation.Component payload={Payload.presentation} />* */}
         <Skill.Component payload={Payload.skill} />
-        <Education.Component payload={Payload.education} />
+        {/* <Education.Component payload={Payload.education} /> */}
         {/** <Etc.Component payload={Payload.etc} />* */}
         {/* <Footer.Component payload={Payload.footer} /> */}
+        <br />
+        <br />
+        <br />
       </Container>
     </>
   );

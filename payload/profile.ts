@@ -1,7 +1,7 @@
-import { faEnvelope, faPhone, faInfo } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faInfo } from '@fortawesome/free-solid-svg-icons';
 // import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faBlogger } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/profile-photo.jpg';
+import image from '../asset/profile-image.png';
 import { IProfile } from '../component/profile/IProfile';
 import { author } from '../package.json';
 
@@ -20,11 +20,11 @@ const profile: IProfile.Payload = {
       link: `mailto:${author.email}`,
       icon: faEnvelope,
     },
-    {
-      title: '010-6751-1979',
-      icon: faPhone,
-      badge: true,
-    },
+    // {
+    //   title: '010-6751-1979',
+    //   icon: faPhone,
+    //   badge: true,
+    // },
     {
       title: 'https://kimchanjung.github.io/',
       link: 'https://kimchanjung.github.io/',
@@ -38,7 +38,7 @@ const profile: IProfile.Payload = {
 
     /** 
     {
-      link: 'https://www.facebook.com/gomezwai.mo.3',
+      link: 'https://www.facebook.com/kimchanjung.dev',
       icon: faFacebook,
     },
     

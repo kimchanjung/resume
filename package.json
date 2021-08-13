@@ -51,7 +51,7 @@
     "debug": "^4.1.1",
     "jquery": "^3.5.1",
     "luxon": "^1.24.1",
-    "next": "^9.3.6",
+    "next": "^11.1.0",
     "next-images": "^1.4.0",
     "next-seo": "^4.4.0",
     "next-simple-google-analytics": "^1.1.0",
